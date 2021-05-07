@@ -85,7 +85,7 @@
   <string role="key" value="_name"></string>
   <unicode value="matheharryMicroPythonTutorial"></unicode>
   <string role="key" value="_nextIdeviceId"></string>
-  <int value="9"></int>
+  <int value="10"></int>
   <string role="key" value="_nextNodeId"></string>
   <int value="6"></int>
   <string role="key" value="_nodeIdDict"></string>
@@ -408,55 +408,685 @@
      <list></list>
      <string role="key" value="children"></string>
      <list>
-      <instance class="exe.engine.node.Node" reference="7">
+      <instance class="exe.engine.node.Node" reference="9">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Installation der Entwicklungsumgebung"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.externalurlidevice.ExternalUrlIdevice">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="7">
           <dictionary>
            <string role="key" value="_title"></string>
-           <unicode value="External Web Site"></unicode>
+           <unicode value="Mu - Meine erste Python-Entwicklungsumgebung"></unicode>
+           <string role="key" value="_attributes"></string>
+           <list>
+            <tuple>
+             <string value="title"></string>
+             <list>
+              <string value="Title"></string>
+              <int value="0"></int>
+              <int value="0"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="category"></string>
+             <list>
+              <string value="Category"></string>
+              <int value="0"></int>
+              <int value="1"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="css-class"></string>
+             <list>
+              <string value="CSS class"></string>
+              <int value="0"></int>
+              <int value="2"></int>
+             </list>
+            </tuple>
+            <tuple>
+             <string value="icon"></string>
+             <list>
+              <string value="Icon"></string>
+              <int value="0"></int>
+              <int value="3"></int>
+             </list>
+            </tuple>
+           </list>
            <string role="key" value="_author"></string>
-           <unicode value="University of Auckland"></unicode>
+           <string value=""></string>
+           <string role="key" value="_iDeviceDir"></string>
+           <string value="text"></string>
            <string role="key" value="_purpose"></string>
-           <unicode value="The external website iDevice loads an external website 
-into an inline frame in your eXe content rather then opening it in a popup box. 
-This means learners are not having to juggle windows. 
-This iDevice should only be used if your content 
-will be viewed by learners online."></unicode>
+           <string value=""></string>
            <string role="key" value="_tip"></string>
            <string value=""></string>
-           <string role="key" value="_urlInstruc"></string>
-           <unicode value="Enter the URL you wish to display
-and select the size of the area to display it in."></unicode>
+           <string role="key" value="_valid"></string>
+           <bool value="1"></bool>
+           <string role="key" value="class_"></string>
+           <unicode value="text"></unicode>
            <string role="key" value="edit"></string>
            <bool value="0"></bool>
            <string role="key" value="emphasis"></string>
-           <int value="0"></int>
-           <string role="key" value="exe.engine.externalurlidevice.ExternalUrlIdevice.persistenceVersion"></string>
-           <int value="3"></int>
-           <string role="key" value="height"></string>
-           <unicode value="500"></unicode>
+           <int value="1"></int>
+           <string role="key" value="exe.engine.jsidevice.JsIdevice.persistenceVersion"></string>
+           <int value="1"></int>
+           <string role="key" value="fields"></string>
+           <list>
+            <instance class="exe.engine.field.TextAreaField" reference="8">
+             <dictionary>
+              <string role="key" value="_id"></string>
+              <unicode value="108_2"></unicode>
+              <string role="key" value="_idevice"></string>
+              <reference key="7"></reference>
+              <string role="key" value="_instruc"></string>
+              <string value=""></string>
+              <string role="key" value="_name"></string>
+              <string value=""></string>
+              <string role="key" value="anchor_names"></string>
+              <list></list>
+              <string role="key" value="content_w_resourcePaths"></string>
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b&gt;&lt;img src=&quot;resources/mu_logo.png&quot; alt=&quot;&quot; width=&quot;40&quot; height=&quot;40&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h1 style=&quot;text-align: center;&quot;&gt;&lt;b&gt;Mu - Installation und erste Schritte&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Mu ist ein auf das nötigste beschränkter Python-Code-Editor für Programmieranfänger. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Weniger ist mehr, deshalb hat Mu nur die wesentlichsten Funktionen, so dass Programmieranfänger nicht durch eine verwirrende Programmoberfläche eingeschüchtert werden. Außerdem kann man mit Mu und Python sehr komfortabel Micro:bits programmieren! &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Python kann so recht einfach und schnell mit Mu erlernt werden, ohne dass es unnötig kompliziert wird. &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;b&gt;Download und Installation&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Lade von der Seite &lt;a href=&quot;https://codewith.mu/en/download&quot;&gt;https://codewith.mu/en/download&lt;/a&gt; das für deinen Computer passende Paket herunter und starte das Installationsprogramm.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img src=&quot;resources/image3.png&quot; alt=&quot;&quot; width=&quot;438&quot; height=&quot;324&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://app.box.com/s/ugmrfr9dq1mevzxf6oi7s90fgg5or319&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;PortaMu&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; hat den Vorteil, dass du nichts installieren musst und dass alles auch auf einem USB-Stick funktionieren würde (dort allerdings laaangsam). Dazu einfach die &lt;/span&gt;&lt;a href=&quot;https://app.box.com/s/ugmrfr9dq1mevzxf6oi7s90fgg5or319&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;heruntergeladene Datei&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; öffnen und in einen zuvor erstellten Ordner “Mu” (zB auf dem Desktop) entpacken. Gestartet wird diese Version durch Doppelklick auf “Launch Mu.bat”. (&lt;/span&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;In der neuesten Version ist noch keine PortaMu-Version vorhanden.&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;)&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;Wie du unter Windows feststellen kannst, welche Version du benötigst (32-bit oder 64-bit)&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Gehe im Windows Explorer zu &amp;lt;Dieser PC&amp;gt; und klicke mit der rechten Maustaste auf Eigenschaften.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img src=&quot;resources/image12.png&quot; alt=&quot;&quot; width=&quot;312&quot; height=&quot;375&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Es öffnet sich die System-Info-Seite und unter Systemtyp siehst du, ob es sich um ein 32-bit- oder 64-bit-System handelt.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img src=&quot;resources/image7.png&quot; alt=&quot;&quot; width=&quot;486&quot; height=&quot;200&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;&lt;b&gt;Installation&lt;/b&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Die heruntergeladene Datei starten und alle Schritte bestätigen..&lt;/span&gt;&lt;/p&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 497px;&quot;&gt;&lt;img src=&quot;resources/windows_mu_installer.gif&quot; alt=&quot;&quot; width=&quot;497&quot; height=&quot;386&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;https://codewith.mu/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Quelle: https://codewith.mu/&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h1&gt;&lt;br /&gt;&lt;br /&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Danach solltest du Mu im Start-Menu finden.&lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;b&gt;Erste Schritte&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Ganz oben in Mu ist eine Titelleiste. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img src=&quot;resources/image6.png&quot; alt=&quot;&quot; width=&quot;297&quot; height=&quot;52&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Diese sieht auf deinem Computer vielleicht anders aus, aber ihre Funktion ist immer dieselbe: sie zeigt die Version von Mu an, die du benutzt, zusammen mit dem Namen der aktuellen Python-Datei, die du gerade bearbeitest.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Darunter ist die Symbolleiste:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img src=&quot;resources/image10.png&quot; alt=&quot;&quot; width=&quot;1088&quot; height=&quot;92&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wie du sehen kannst, enthält sie runde Buttons. Wenn du mit der Maus über einen Button fährst (ohne ihn tatsächlich anzuklicken), erscheint ein kleiner Tooltip über dem Button, der mehr Informationen darüber enthält, was der Button macht. Probier es aus!&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Die meisten Buttons bleiben gleich, aber einige ändern sich, je nachdem, was du gerade machst.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Die Buttons sind gruppiert:&lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;b&gt;Betriebsmodus&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Dieser Button ist so wichtig, dass er in eine eigene Gruppe kommt. Klicke darauf, um den aktuellen Modus von Mu zu ändern. Jeder Modus hat unterschiedliche Fähigkeiten, je nachdem, was ihr erreichen wollt. (Wenn du mehr über die Modi wissen möchtest, gibt es ein Tutorial über die Modi.) Wir benötigen jetzt zuerst einmal den Modus Python 3.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;b&gt;Dateisystem&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Die Buttons &quot;Neu&quot;, &quot;Laden&quot; und &quot;Speichern&quot; in dieser Gruppe ermöglichen es dir, mit Dateien auf der Festplatte deines Computers zu arbeiten.&lt;/span&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Neu: Erstelle eine neue leere Datei.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Laden: Öffne einen Dateiselektor, um eine Datei zum Laden in Mu auszuwählen.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Speichern: Speichere die Datei auf der Festplatte deines Computers. Wenn die Datei keinen Namen hat, wirst du nach einem Namen gefragt.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wenn Dateien einen Namen haben, werden sie normalerweise alle 5 Sekunden automatisch gespeichert. Deshalb immer einer neuen Datei sofort einen Namen geben!&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;b&gt;Code-Aktionen&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Die nächste Gruppe von Buttons kann sich ändern, je nachdem, welchen Modus du gerade verwendest. Sie geben dir interessante Möglichkeiten, mit dem Code, den du geschrieben hast, zu arbeiten und zu experimentieren. Im obigen Beispiel gehören die Buttons &quot;Ausführen&quot;, &quot;Debuggen&quot;, &quot;REPL&quot; und &quot;Plotter&quot; zu dieser Gruppe. &lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;b&gt;Anzeigeeinstellungen&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Manchmal ist es wichtig, das Aussehen von Mu zu verändern. Die nächsten drei Buttons (&quot;Hineinzoomen&quot;, &quot;Rauszoomen&quot; und &quot;Thema&quot;) ändern, wie sich Mu präsentiert. Die Buttons &quot;Hinauszoomen&quot; und &quot;Rauszoomen&quot; machen den Text größer oder kleiner. Der &quot;Thema&quot;-Button schaltet zwischen drei verschiedenen &quot;Themes&quot; hin und her:&lt;/span&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Tag&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: ein helles, augenfreundliches Thema.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Nacht&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: ein dunkles Thema, das dich wie ein Coder in einem Hollywood-Film aussehen lässt.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Hoher Kontrast&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: ein Schwarz-Weiß-Thema für diejenigen, die Hilfe brauchen, um Mu's Benutzeroberfläche zu sehen.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Mu merkt sich, welches Thema du zuletzt benutzt hast, wenn du den Editor neu startest.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;b&gt;Hilfsprogramme&lt;/b&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Die Buttons &quot;Prüfen&quot;, &quot;Hilfe&quot; und &quot;Beenden&quot; bieten Möglichkeiten, wie Mu dir bei der Programmierung mit Mu helfen kann.&lt;/span&gt;
+&lt;ul&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Prüfen&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Analysiert deinen Code und macht Vorschläge, wie du ihn verbessern kannst.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Hilfe&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: Öffnet deinen Standardbrowser auf Mu's Hilfeseite.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;2&quot;&gt;&lt;i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Beenden&lt;/span&gt;&lt;/i&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;: stoppt den Editor. Möglicherweise wirst du aufgefordert, deine Arbeit zu speichern, falls du das noch nicht getan hast.&lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Unter den Buttons befinden sich &quot;Tabs&quot;, die dir die geöffneten Dateien anzeigen. Unter den Tabs befindet sich der größte und wichtigste Teil von Mu →  der Texteditor.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;img src=&quot;resources/image5.png&quot; alt=&quot;&quot; width=&quot;826&quot; height=&quot;736&quot; /&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Hier wird der Code für den aktuell ausgewählten Tab angezeigt. Wenn du die Tabs wechselst, wirst du sehen, dass sich der Code in diesem Bereich ändert. Wenn du auf diesen Bereich klickst und anfängst zu tippen, wird dein Code hier angezeigt. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Während du den Code eingibst, wird Mu die Farbe des Textes ändern, um dir das Lesen des Codes zu erleichtern. Auf der linken Seite befindet sich eine Spalte mit den Zeilennummern für deine Datei. Diese sind nützlich, wenn Python Fehler meldet.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Schließlich ist unten die Fußzeile, in der Mu Meldungen anzeigt.&lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;&lt;b&gt;Hallo von Mu!&lt;/b&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Lass uns dein erstes Python-Programm mit Mu erstellen.&lt;/span&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stelle sicher, dass Mu im Python 3 Modus ist (überprüfe die Fußzeile!). Wenn das nicht der Fall ist, klicke auf den &quot;Modus&quot;-Button und doppelklicke auf den &quot;Python 3&quot;-Modus.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Klicke auf den &quot;Neu&quot;-Button, dann, bevor du etwas eintippst, klicke auf den &quot;Speichern&quot;-Button und gib deiner Datei einen Namen (zum Beispiel &quot;hello.py&quot;). Das sofortige Speichern solltest du dir unbedingt angewöhnen!&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Gib den folgenden Python-Code in den Editor ein:&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;print(&quot;Hello from Mu!&quot;)&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;br /&gt;&lt;br /&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Klicke auf den &quot;Ausführen&quot;-Button und die Ausgabe deines Programms wird in einem neuen &quot;Ausgabe&quot;-Bereich zwischen dem Texteditor und der Fußzeile angezeigt.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Klicke auf den &quot;Stop&quot;-Button, um zum Editieren deines Codes zurückzukehren.&lt;/span&gt;&lt;/li&gt;
+&lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Die Schritte 3, 4 und 5 sind unten dargestellt:&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 800px;&quot;&gt;&lt;img src=&quot;resources/mu_hallo.gif&quot; alt=&quot;&quot; width=&quot;800&quot; height=&quot;456&quot; /&gt;
+&lt;figcaption class=&quot;figcaption&quot;&gt;&lt;a href=&quot;https://codewith.mu/&quot; target=&quot;_blank&quot; class=&quot;author&quot; rel=&quot;noopener&quot;&gt;Quelle: https://codewith.mu/&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Herzlichen Glückwunsch! Du hast gerade dein erstes Python-Programm mit Mu geschrieben und ausgeführt.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
+              <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+              <int value="4"></int>
+              <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
+              <int value="2"></int>
+              <string role="key" value="exe.engine.field.TextAreaField.persistenceVersion"></string>
+              <int value="3"></int>
+              <string role="key" value="htmlTag"></string>
+              <string value="div"></string>
+              <string role="key" value="images"></string>
+              <instance class="exe.engine.galleryidevice.GalleryImages">
+               <dictionary>
+                <string role="key" value=".listitems"></string>
+                <list>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="206"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.0"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="10">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="mu_logo.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\mu_logo.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="4cd1b8d7b99d347e09d359b5b3146033"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="207"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.1"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="11">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="mu_hallo.gif"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\mu_hallo.gif"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="347b80dc509823ba776481947f3d724d"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="208"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.2"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="12">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="windows_mu_installer.gif"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\windows_mu_installer.gif"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="49757c895a94773908eff17541877c61"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="209"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.3"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="13">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="image3.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\image3.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="124d09d6ab34849bec73d7368c719d5f"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="210"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.4"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="14">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="image12.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\image12.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="a7b7b28316b6bb65452f3de5b3550b88"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="211"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.5"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="15">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="image7.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\image7.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="06bf0254eba049a1ca6adf3711c139ca"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="212"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.6"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="16">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="image6.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\image6.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="d3f1e979a0d15777718a62cbb23179b8"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="213"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.7"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="17">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="image10.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\image10.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="14e83c5efa15bbe02a6e56487d0b221f"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                 <instance class="exe.engine.galleryidevice.GalleryImage">
+                  <dictionary>
+                   <string role="key" value="_caption"></string>
+                   <instance class="exe.engine.field.TextField">
+                    <dictionary>
+                     <string role="key" value="_id"></string>
+                     <int value="214"></int>
+                     <string role="key" value="_idevice"></string>
+                     <none></none>
+                     <string role="key" value="_instruc"></string>
+                     <string value=""></string>
+                     <string role="key" value="_name"></string>
+                     <string value=""></string>
+                     <string role="key" value="content"></string>
+                     <string value=""></string>
+                     <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
+                     <int value="4"></int>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_id"></string>
+                   <unicode value="9_108_2.8"></unicode>
+                   <string role="key" value="_imageResource"></string>
+                   <instance class="exe.engine.resource.Resource" reference="18">
+                    <dictionary>
+                     <string role="key" value="_idevice"></string>
+                     <reference key="7"></reference>
+                     <string role="key" value="_package"></string>
+                     <reference key="6"></reference>
+                     <string role="key" value="_storageName"></string>
+                     <string value="image5.png"></string>
+                     <string role="key" value="_userName"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp2zdnn9.eXe\\previews\\allyourbase\\image5.png"></string>
+                     <string role="key" value="checksum"></string>
+                     <string value="4b9bca87fc3d21b366864f8f3b9abf30"></string>
+                     <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+                     <int value="2"></int>
+                     <string role="key" value="warningMsg"></string>
+                     <string value=""></string>
+                    </dictionary>
+                   </instance>
+                   <string role="key" value="_parent"></string>
+                   <reference key="8"></reference>
+                   <string role="key" value="_thumbnailResource"></string>
+                   <none></none>
+                   <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
+                   <int value="3"></int>
+                   <string role="key" value="makeThumbnail"></string>
+                   <bool value="0"></bool>
+                  </dictionary>
+                 </instance>
+                </list>
+                <string role="key" value="idevice"></string>
+                <reference key="8"></reference>
+               </dictionary>
+              </instance>
+              <string role="key" value="intlinks_to_anchors"></string>
+              <dictionary></dictionary>
+              <string role="key" value="nextImageId"></string>
+              <int value="9"></int>
+              <string role="key" value="parentNode"></string>
+              <reference key="9"></reference>
+             </dictionary>
+            </instance>
+           </list>
            <string role="key" value="icon"></string>
-           <string value=""></string>
+           <unicode value=""></unicode>
            <string role="key" value="id"></string>
-           <unicode value="2"></unicode>
+           <unicode value="9"></unicode>
+           <string role="key" value="ideviceCategory"></string>
+           <unicode value="Text and Tasks"></unicode>
            <string role="key" value="lastIdevice"></string>
            <bool value="0"></bool>
+           <string role="key" value="nextFieldId"></string>
+           <int value="3"></int>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="7"></reference>
+           <reference key="9"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
-           <string role="key" value="url"></string>
-           <unicode value="https://docs.google.com/document/d/1S5etlP-8M21CJGMawijKD00qzNokz1waKBrlP2ujO74/edit?usp=sharing"></unicode>
            <string role="key" value="userResources"></string>
-           <list></list>
+           <list>
+            <reference key="10"></reference>
+            <reference key="11"></reference>
+            <reference key="12"></reference>
+            <reference key="13"></reference>
+            <reference key="14"></reference>
+            <reference key="15"></reference>
+            <reference key="16"></reference>
+            <reference key="17"></reference>
+            <reference key="18"></reference>
+           </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
           </dictionary>
@@ -482,13 +1112,13 @@ and select the size of the area to display it in."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="10">
+      <instance class="exe.engine.node.Node" reference="21">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Arbeitsweise"></unicode>
         <string role="key" value="idevices"></string>
         <list>
-         <instance class="exe.engine.jsidevice.JsIdevice" reference="8">
+         <instance class="exe.engine.jsidevice.JsIdevice" reference="19">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Learning By Doing"></unicode>
@@ -547,12 +1177,12 @@ and select the size of the area to display it in."></unicode>
            <int value="1"></int>
            <string role="key" value="fields"></string>
            <list>
-            <instance class="exe.engine.field.TextAreaField" reference="9">
+            <instance class="exe.engine.field.TextAreaField" reference="20">
              <dictionary>
               <string role="key" value="_id"></string>
               <unicode value="112_2"></unicode>
               <string role="key" value="_idevice"></string>
-              <reference key="8"></reference>
+              <reference key="19"></reference>
               <string role="key" value="_instruc"></string>
               <string value=""></string>
               <string role="key" value="_name"></string>
@@ -603,10 +1233,10 @@ and select the size of the area to display it in."></unicode>
                    <string role="key" value="_id"></string>
                    <unicode value="4_112_2.2"></unicode>
                    <string role="key" value="_imageResource"></string>
-                   <instance class="exe.engine.resource.Resource" reference="11">
+                   <instance class="exe.engine.resource.Resource" reference="22">
                     <dictionary>
                      <string role="key" value="_idevice"></string>
-                     <reference key="8"></reference>
+                     <reference key="19"></reference>
                      <string role="key" value="_package"></string>
                      <reference key="6"></reference>
                      <string role="key" value="_storageName"></string>
@@ -624,7 +1254,7 @@ and select the size of the area to display it in."></unicode>
                     </dictionary>
                    </instance>
                    <string role="key" value="_parent"></string>
-                   <reference key="9"></reference>
+                   <reference key="20"></reference>
                    <string role="key" value="_thumbnailResource"></string>
                    <none></none>
                    <string role="key" value="exe.engine.galleryidevice.GalleryImage.persistenceVersion"></string>
@@ -635,7 +1265,7 @@ and select the size of the area to display it in."></unicode>
                  </instance>
                 </list>
                 <string role="key" value="idevice"></string>
-                <reference key="9"></reference>
+                <reference key="20"></reference>
                </dictionary>
               </instance>
               <string role="key" value="intlinks_to_anchors"></string>
@@ -643,7 +1273,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="nextImageId"></string>
               <int value="3"></int>
               <string role="key" value="parentNode"></string>
-              <reference key="10"></reference>
+              <reference key="21"></reference>
              </dictionary>
             </instance>
            </list>
@@ -660,14 +1290,14 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="10"></reference>
+           <reference key="21"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
            <bool value="1"></bool>
            <string role="key" value="userResources"></string>
            <list>
-            <reference key="11"></reference>
+            <reference key="22"></reference>
            </list>
            <string role="key" value="version"></string>
            <int value="0"></int>
@@ -694,7 +1324,7 @@ and select the size of the area to display it in."></unicode>
         <list></list>
        </dictionary>
       </instance>
-      <instance class="exe.engine.node.Node" reference="12">
+      <instance class="exe.engine.node.Node" reference="23">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="Tutorial"></unicode>
@@ -734,7 +1364,7 @@ and select the size of the area to display it in."></unicode>
            <string role="key" value="originalicon"></string>
            <string value=""></string>
            <string role="key" value="parentNode"></string>
-           <reference key="12"></reference>
+           <reference key="23"></reference>
            <string role="key" value="systemResources"></string>
            <list></list>
            <string role="key" value="undo"></string>
@@ -766,23 +1396,23 @@ and select the size of the area to display it in."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="15">
+         <instance class="exe.engine.node.Node" reference="26">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Wissensüberprüfung"></unicode>
            <string role="key" value="idevices"></string>
            <list>
-            <instance class="exe.engine.clozeidevice.ClozeIdevice" reference="13">
+            <instance class="exe.engine.clozeidevice.ClozeIdevice" reference="24">
              <dictionary>
               <string role="key" value="_title"></string>
               <unicode value=""></unicode>
               <string role="key" value="instructionsForLearners"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="14">
+              <instance class="exe.engine.field.TextAreaField" reference="25">
                <dictionary>
                 <string role="key" value="_id"></string>
                 <int value="104"></int>
                 <string role="key" value="_idevice"></string>
-                <reference key="13"></reference>
+                <reference key="24"></reference>
                 <string role="key" value="_instruc"></string>
                 <unicode value="Provide instruction on how the cloze activity should be 
 completed. Default text will be entered if there are no changes to this field.
@@ -811,7 +1441,7 @@ completed. Default text will be entered if there are no changes to this field.
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="14"></reference>
+                  <reference key="25"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="intlinks_to_anchors"></string>
@@ -819,13 +1449,13 @@ completed. Default text will be entered if there are no changes to this field.
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <reference key="15"></reference>
+                <reference key="26"></reference>
                </dictionary>
               </instance>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_content"></string>
-              <instance class="exe.engine.field.ClozeField" reference="16">
+              <instance class="exe.engine.field.ClozeField" reference="27">
                <dictionary>
                 <string role="key" value="_checkCapsInstruc"></string>
                 <unicode value="&lt;p&gt;If this option is checked, submitted answers with different capitalization will be marked as incorrect.&lt;/p&gt;"></unicode>
@@ -835,7 +1465,7 @@ completed. Default text will be entered if there are no changes to this field.
                 <string role="key" value="_id"></string>
                 <int value="105"></int>
                 <string role="key" value="_idevice"></string>
-                <reference key="13"></reference>
+                <reference key="24"></reference>
                 <string role="key" value="_instantMarkingInstruc"></string>
                 <unicode value="&lt;p&gt;If this option is set, each word will be marked as the 
 learner types it rather than all the words being marked the end of the 
@@ -870,7 +1500,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="16"></reference>
+                  <reference key="27"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="instantMarking"></string>
@@ -880,7 +1510,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <reference key="15"></reference>
+                <reference key="26"></reference>
                 <string role="key" value="parts"></string>
                 <list>
                  <tuple>
@@ -922,12 +1552,12 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
               <string role="key" value="exe.engine.clozeidevice.ClozeIdevice.persistenceVersion"></string>
               <int value="7"></int>
               <string role="key" value="feedback"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="17">
+              <instance class="exe.engine.field.TextAreaField" reference="28">
                <dictionary>
                 <string role="key" value="_id"></string>
                 <int value="106"></int>
                 <string role="key" value="_idevice"></string>
-                <reference key="13"></reference>
+                <reference key="24"></reference>
                 <string role="key" value="_instruc"></string>
                 <unicode value="Enter any feedback you wish to provide the learner with-in the feedback field. This field can be left blank."></unicode>
                 <string role="key" value="_name"></string>
@@ -952,7 +1582,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="17"></reference>
+                  <reference key="28"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="intlinks_to_anchors"></string>
@@ -960,7 +1590,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <reference key="15"></reference>
+                <reference key="26"></reference>
                </dictionary>
               </instance>
               <string role="key" value="icon"></string>
@@ -974,7 +1604,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
               <string role="key" value="originalicon"></string>
               <unicode value="question"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="15"></reference>
+              <reference key="26"></reference>
               <string role="key" value="systemResources"></string>
               <list>
                <string value="common.js"></string>
@@ -1001,7 +1631,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
            <string role="key" value="last_full_node_path"></string>
            <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Tutorial:Wissens%C3%BCberpr%C3%BCfung"></string>
            <string role="key" value="parent"></string>
-           <reference key="12"></reference>
+           <reference key="23"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
            <list></list>
            <string role="key" value="children"></string>
@@ -1015,13 +1645,13 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
     </dictionary>
    </instance>
    <unicode role="key" value="1"></unicode>
-   <reference key="7"></reference>
+   <reference key="9"></reference>
    <unicode role="key" value="2"></unicode>
-   <reference key="10"></reference>
+   <reference key="21"></reference>
    <unicode role="key" value="3"></unicode>
-   <reference key="12"></reference>
+   <reference key="23"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="15"></reference>
+   <reference key="26"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -1032,7 +1662,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="15"></reference>
+  <reference key="9"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -2274,9 +2904,45 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
   <string value="2.5.1"></string>
   <string role="key" value="resources"></string>
   <dictionary>
-   <string role="key" value="65531b9c4d897dd355aca808e6e1f91a"></string>
+   <string role="key" value="06bf0254eba049a1ca6adf3711c139ca"></string>
+   <list>
+    <reference key="15"></reference>
+   </list>
+   <string role="key" value="124d09d6ab34849bec73d7368c719d5f"></string>
+   <list>
+    <reference key="13"></reference>
+   </list>
+   <string role="key" value="14e83c5efa15bbe02a6e56487d0b221f"></string>
+   <list>
+    <reference key="17"></reference>
+   </list>
+   <string role="key" value="347b80dc509823ba776481947f3d724d"></string>
    <list>
     <reference key="11"></reference>
+   </list>
+   <string role="key" value="49757c895a94773908eff17541877c61"></string>
+   <list>
+    <reference key="12"></reference>
+   </list>
+   <string role="key" value="4b9bca87fc3d21b366864f8f3b9abf30"></string>
+   <list>
+    <reference key="18"></reference>
+   </list>
+   <string role="key" value="4cd1b8d7b99d347e09d359b5b3146033"></string>
+   <list>
+    <reference key="10"></reference>
+   </list>
+   <string role="key" value="65531b9c4d897dd355aca808e6e1f91a"></string>
+   <list>
+    <reference key="22"></reference>
+   </list>
+   <string role="key" value="a7b7b28316b6bb65452f3de5b3550b88"></string>
+   <list>
+    <reference key="14"></reference>
+   </list>
+   <string role="key" value="d3f1e979a0d15777718a62cbb23179b8"></string>
+   <list>
+    <reference key="16"></reference>
    </list>
   </dictionary>
   <string role="key" value="root"></string>
