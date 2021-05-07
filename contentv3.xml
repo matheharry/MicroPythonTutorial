@@ -187,7 +187,7 @@
 &lt;li&gt;Python Code hat eine einfache und saubere Struktur, die leicht zu erlernen und leicht zu lesen ist. In der Tat, wie du sehen wirst, erzwingt die Sprachdefinition eine einfach zu lesende Codestruktur.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Das alles sind Gründe, warum Python zB im &lt;a href=&quot;https://pypl.github.io/PYPL.html&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;PYPL - Index (PopularitY of Programming Language)&lt;/a&gt; an erster Stelle gereiht ist.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://pypl.github.io/PYPL/All.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://pypl.github.io/PYPL/All.png&quot; style=&quot;display: block; margin-left: auto; margin-right: auto;&quot; /&gt;&lt;/p&gt;
 &lt;h1&gt;&lt;span style=&quot;font-size: 18pt;&quot;&gt;&lt;strong&gt;Warum der BBC micro:bit&lt;/strong&gt;&lt;/span&gt;&lt;/h1&gt;
 &lt;div class=&quot;notes ql-snow&quot; id=&quot;quill-note&quot;&gt;
 &lt;div class=&quot;ql-editor&quot;&gt;
@@ -1256,8 +1256,8 @@
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Die Arbeitsblätter bzw. Challenges dieses Tutorials sind so gestaltet, dass sie den Schülern eine Einführung in die Funktionen des micro:bit vermitteln sollen. Es werden kurze praktische Beispiele gegeben und die Schüler werden aufgefordert, mit Hilfe der vorgestellten Grundbausteine in der &lt;strong&gt;Entwicklungsumgebung Mu&lt;/strong&gt; Lösungen für weiterführende Aufgaben zu programmieren. Bei Bedarf wird jeweils das deutsche &lt;strong&gt;MicroPython Tutorial&lt;/strong&gt; zu Rate gezogen oder in der &lt;strong&gt;englischsprachigen Dokumentation&lt;/strong&gt; nachgesehen.&lt;/p&gt;
-&lt;p&gt;Um die Programmiersprache Python besser kennenzulernen stehen auch interaktive &lt;strong&gt;Jupyter-Notebooks&lt;/strong&gt; auf Binder zur Verfügung. Im Tutorial selbst wird nur das Nötigste für die Programmierung mit Python erklärt. &lt;/p&gt;
+              <unicode content="true" value="&lt;div class=&quot;exe-text&quot;&gt;&lt;p&gt;Die Arbeitsblätter bzw. Challenges dieses Tutorials sind so gestaltet, dass sie den Schülern eine Einführung in die Funktionen des micro:bit vermitteln sollen. Es werden kurze praktische Beispiele gegeben und die Schüler werden aufgefordert, mit Hilfe der vorgestellten Grundbausteine in der &lt;a href=&quot;https://codewith.mu/en/&quot;&gt;Entwicklungsumgebung Mu&lt;/a&gt; Lösungen für weiterführende Aufgaben zu programmieren. Bei Bedarf wird jeweils das deutsche &lt;a href=&quot;https://microbit-challenges-de.readthedocs.io/de/latest/index.html&quot;&gt;MicroPython Tutorial&lt;/a&gt; zu Rate gezogen oder in der &lt;a href=&quot;https://microbit-micropython.readthedocs.io/en/latest/&quot;&gt;englischsprachigen Dokumentation&lt;/a&gt; nachgesehen.&lt;/p&gt;
+&lt;p&gt;Um die Programmiersprache Python besser kennenzulernen stehen auch interaktive &lt;a href=&quot;https://mybinder.org/v2/gh/matheharry/MicroPython-Crashkurs/main&quot;&gt;Jupyter-Notebooks&lt;/a&gt; auf Binder zur Verfügung. Im Tutorial selbst wird nur das Nötigste für die Programmierung mit Python erklärt. &lt;/p&gt;
 &lt;figure class=&quot;exe-figure exe-image position-center license-CC-BY-SA&quot; style=&quot;width: 852px;&quot;&gt;&lt;img src=&quot;resources/ueberblick_(Small).png&quot; alt=&quot;Überblick über die Arbeit mit den Unterlagen&quot; title=&quot;Arbeitsweise&quot; width=&quot;852&quot; height=&quot;480&quot; /&gt;
 &lt;figcaption class=&quot;figcaption&quot;&gt;&lt;/figcaption&gt;
 &lt;/figure&gt;
