@@ -830,8 +830,8 @@ completed. Default text will be entered if there are no changes to this field.
                 <string role="key" value="_checkCapsInstruc"></string>
                 <unicode value="&lt;p&gt;If this option is checked, submitted answers with different capitalization will be marked as incorrect.&lt;/p&gt;"></unicode>
                 <string role="key" value="_encodedContent"></string>
-                <unicode value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;from&lt;/u&gt;  microbit  &lt;u&gt;import *&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;display&lt;/u&gt; .show( &lt;u&gt;&quot;Hallo Welt!&quot;&lt;/u&gt; )&lt;/span&gt;&lt;/p&gt;"></unicode>
+                <unicode value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;  &lt;u&gt;from&lt;/u&gt;  microbit  &lt;u&gt;import *&lt;/u&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;  &lt;u&gt;display&lt;/u&gt; .show( &lt;u&gt;|&quot;Hallo Welt!&quot;|'Hallo Welt!'|&lt;/u&gt; )&lt;/span&gt;&lt;/p&gt;"></unicode>
                 <string role="key" value="_id"></string>
                 <int value="105"></int>
                 <string role="key" value="_idevice"></string>
@@ -856,8 +856,8 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                 <string role="key" value="checkCaps"></string>
                 <bool value="1"></bool>
                 <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;u&gt;from&lt;/u&gt; microbit &lt;u&gt;import *&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;u&gt;display&lt;/u&gt;.show(&lt;u&gt;&quot;Hallo Welt!&quot;&lt;/u&gt;)&lt;/span&gt;&lt;/p&gt;"></unicode>
+                <unicode content="true" value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;from&lt;/u&gt; microbit &lt;u&gt;import *&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;display&lt;/u&gt;.show(&lt;u&gt;|&quot;Hallo Welt!&quot;|'Hallo Welt!'|&lt;/u&gt;)&lt;/span&gt;&lt;/p&gt;"></unicode>
                 <string role="key" value="exe.engine.field.ClozeField.persistenceVersion"></string>
                 <int value="3"></int>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -884,7 +884,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                 <string role="key" value="parts"></string>
                 <list>
                  <tuple>
-                  <unicode value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;"></unicode>
+                  <unicode value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; "></unicode>
                   <unicode value="from"></unicode>
                  </tuple>
                  <tuple>
@@ -892,13 +892,13 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                   <unicode value="import *"></unicode>
                  </tuple>
                  <tuple>
-                  <unicode value="&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;"></unicode>
+                  <unicode value=" &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; "></unicode>
                   <unicode value="display"></unicode>
                  </tuple>
                  <tuple>
                   <unicode value=".show("></unicode>
-                  <unicode value="&quot;Hallo Welt!&quot;"></unicode>
+                  <unicode value="|&quot;Hallo Welt!&quot;|'Hallo Welt!'|"></unicode>
                  </tuple>
                  <tuple>
                   <unicode value=")&lt;/span&gt;&lt;/p&gt;"></unicode>
