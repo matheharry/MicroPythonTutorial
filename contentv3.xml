@@ -587,7 +587,7 @@ and select the size of the area to display it in."></unicode>
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="204"></int>
+                     <int value="205"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -601,7 +601,7 @@ and select the size of the area to display it in."></unicode>
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="4_112_2.1"></unicode>
+                   <unicode value="4_112_2.2"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="11">
                     <dictionary>
@@ -612,7 +612,7 @@ and select the size of the area to display it in."></unicode>
                      <string role="key" value="_storageName"></string>
                      <string value="ueberblick_(Small).png"></string>
                      <string role="key" value="_userName"></string>
-                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmpd7gqho\\ueberblick_(Small).png"></string>
+                     <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmpled0gz\\ueberblick_(Small).png"></string>
                      <string role="key" value="checksum"></string>
                      <string value="65531b9c4d897dd355aca808e6e1f91a"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
@@ -641,7 +641,7 @@ and select the size of the area to display it in."></unicode>
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="2"></int>
+              <int value="3"></int>
               <string role="key" value="parentNode"></string>
               <reference key="10"></reference>
              </dictionary>
@@ -766,7 +766,7 @@ and select the size of the area to display it in."></unicode>
         <list></list>
         <string role="key" value="children"></string>
         <list>
-         <instance class="exe.engine.node.Node" reference="17">
+         <instance class="exe.engine.node.Node" reference="15">
           <dictionary>
            <string role="key" value="_title"></string>
            <unicode value="Wissensüberprüfung"></unicode>
@@ -775,7 +775,7 @@ and select the size of the area to display it in."></unicode>
             <instance class="exe.engine.clozeidevice.ClozeIdevice" reference="13">
              <dictionary>
               <string role="key" value="_title"></string>
-              <unicode value="Hallo Welt"></unicode>
+              <unicode value=""></unicode>
               <string role="key" value="instructionsForLearners"></string>
               <instance class="exe.engine.field.TextAreaField" reference="14">
                <dictionary>
@@ -796,7 +796,7 @@ completed. Default text will be entered if there are no changes to this field.
                 <string role="key" value="class_"></string>
                 <string value="block instructions"></string>
                 <string role="key" value="content_w_resourcePaths"></string>
-                <unicode content="true" value="&lt;p&gt;Vervollständige das Programm so, dass es am micro:bit den Text &lt;em&gt;&lt;span style=&quot;font-family: 'andale mono', monospace;&quot;&gt;Hallo Welt!&lt;/span&gt;&lt;/em&gt; anzeigt.&lt;/p&gt;"></unicode>
+                <unicode content="true" value="&lt;p&gt;&lt;span&gt;Vervollständige das Programm so, dass es am micro:bit den Text  &lt;/span&gt;&lt;span style=&quot;font-family: 'andale mono', monospace; color: #ff0000;&quot;&gt;&lt;em&gt;Hallo Welt!&lt;/em&gt;&lt;/span&gt;&lt;span&gt;  anzeigt.&lt;/span&gt;&lt;/p&gt;"></unicode>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
                 <int value="4"></int>
                 <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -819,19 +819,19 @@ completed. Default text will be entered if there are no changes to this field.
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <none></none>
+                <reference key="15"></reference>
                </dictionary>
               </instance>
               <string role="key" value="_author"></string>
               <unicode value="University of Auckland"></unicode>
               <string role="key" value="_content"></string>
-              <instance class="exe.engine.field.ClozeField" reference="15">
+              <instance class="exe.engine.field.ClozeField" reference="16">
                <dictionary>
                 <string role="key" value="_checkCapsInstruc"></string>
                 <unicode value="&lt;p&gt;If this option is checked, submitted answers with different capitalization will be marked as incorrect.&lt;/p&gt;"></unicode>
                 <string role="key" value="_encodedContent"></string>
                 <unicode value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;from&lt;/u&gt;  microbit  &lt;u&gt;import *&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;display&lt;/u&gt; .show &lt;u&gt;(&quot;Hallo Welt!&quot;)&lt;/u&gt; &lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt; &lt;u&gt;display&lt;/u&gt; .show( &lt;u&gt;&quot;Hallo Welt!&quot;&lt;/u&gt; )&lt;/span&gt;&lt;/p&gt;"></unicode>
                 <string role="key" value="_id"></string>
                 <int value="105"></int>
                 <string role="key" value="_idevice"></string>
@@ -857,7 +857,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                 <bool value="1"></bool>
                 <string role="key" value="content_w_resourcePaths"></string>
                 <unicode content="true" value="&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;u&gt;from&lt;/u&gt; microbit &lt;u&gt;import *&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;u&gt;display&lt;/u&gt;.show&lt;u&gt;(&quot;Hallo Welt!&quot;)&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;"></unicode>
+&lt;p&gt;&lt;span style=&quot;font-family: 'courier new', courier, monospace;&quot;&gt;&lt;u&gt;display&lt;/u&gt;.show(&lt;u&gt;&quot;Hallo Welt!&quot;&lt;/u&gt;)&lt;/span&gt;&lt;/p&gt;"></unicode>
                 <string role="key" value="exe.engine.field.ClozeField.persistenceVersion"></string>
                 <int value="3"></int>
                 <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
@@ -870,17 +870,17 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="15"></reference>
+                  <reference key="16"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="instantMarking"></string>
-                <bool value="0"></bool>
+                <bool value="1"></bool>
                 <string role="key" value="intlinks_to_anchors"></string>
                 <dictionary></dictionary>
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <none></none>
+                <reference key="15"></reference>
                 <string role="key" value="parts"></string>
                 <list>
                  <tuple>
@@ -897,11 +897,11 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                   <unicode value="display"></unicode>
                  </tuple>
                  <tuple>
-                  <unicode value=".show"></unicode>
-                  <unicode value="(&quot;Hallo Welt!&quot;)"></unicode>
+                  <unicode value=".show("></unicode>
+                  <unicode value="&quot;Hallo Welt!&quot;"></unicode>
                  </tuple>
                  <tuple>
-                  <unicode value="&lt;/span&gt;&lt;/p&gt;"></unicode>
+                  <unicode value=")&lt;/span&gt;&lt;/p&gt;"></unicode>
                   <string value=""></string>
                  </tuple>
                 </list>
@@ -922,7 +922,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
               <string role="key" value="exe.engine.clozeidevice.ClozeIdevice.persistenceVersion"></string>
               <int value="7"></int>
               <string role="key" value="feedback"></string>
-              <instance class="exe.engine.field.TextAreaField" reference="16">
+              <instance class="exe.engine.field.TextAreaField" reference="17">
                <dictionary>
                 <string role="key" value="_id"></string>
                 <int value="106"></int>
@@ -952,7 +952,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                   <string role="key" value=".listitems"></string>
                   <list></list>
                   <string role="key" value="idevice"></string>
-                  <reference key="16"></reference>
+                  <reference key="17"></reference>
                  </dictionary>
                 </instance>
                 <string role="key" value="intlinks_to_anchors"></string>
@@ -960,7 +960,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
                 <string role="key" value="nextImageId"></string>
                 <int value="0"></int>
                 <string role="key" value="parentNode"></string>
-                <none></none>
+                <reference key="15"></reference>
                </dictionary>
               </instance>
               <string role="key" value="icon"></string>
@@ -974,7 +974,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
               <string role="key" value="originalicon"></string>
               <unicode value="question"></unicode>
               <string role="key" value="parentNode"></string>
-              <reference key="17"></reference>
+              <reference key="15"></reference>
               <string role="key" value="systemResources"></string>
               <list>
                <string value="common.js"></string>
@@ -1021,7 +1021,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
    <unicode role="key" value="3"></unicode>
    <reference key="12"></reference>
    <unicode role="key" value="5"></unicode>
-   <reference key="17"></reference>
+   <reference key="15"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
   <unicode value=""></unicode>
@@ -1032,7 +1032,7 @@ click on the Hide/Show Word button below.&lt;/p&gt;&lt;p&gt;More than one possib
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="17"></reference>
+  <reference key="15"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>

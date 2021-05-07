@@ -42,11 +42,11 @@
 <header id="nodeDecoration"><h1 id="nodeTitle">Wissensüberprüfung</h1></header>
 <article class="iDevice_wrapper ClozeIdevice em_iDevice" id="id8">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><h1 class="iDeviceTitle">Hallo Welt</h1></header>
+<header class="iDevice_header"><span class="iDeviceTitle">&nbsp;</span></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <section id="ta8_104" class="block instructions iDevice_content">
-<p>Vervollständige das Programm so, dass es am micro:bit den Text <em><span style="font-family: 'andale mono', monospace;">Hallo Welt!</span></em> anzeigt.</p>
+<p><span>Vervollständige das Programm so, dass es am micro:bit den Text  </span><span style="font-family: 'andale mono', monospace; color: #ff0000;"><em>Hallo Welt!</em></span><span>  anzeigt.</span></p>
 </section>
 
     <section class="activity" id="activity-8_105">
@@ -56,39 +56,36 @@
 
 <input type="hidden" name="clozeFlag8_105.checkCaps" id="clozeFlag8_105.checkCaps" value="true"/>
 
-<input type="hidden" name="clozeFlag8_105.instantMarking" id="clozeFlag8_105.instantMarking" value="false"/>
+<input type="hidden" name="clozeFlag8_105.instantMarking" id="clozeFlag8_105.instantMarking" value="true"/>
 
 <p><span style="font-family: 'courier new', courier, monospace;">
 <label for="clozeBlank8_105.0" class="sr-av">Lückentest (1):</label>
-<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.0" style="width:4em" />
+<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.0" style="width:4em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.0">JXUwMDNlJXUwMDE0JXUwMDFkJXUwMDAy
 </span>
  microbit 
 <label for="clozeBlank8_105.1" class="sr-av">Lückentest (2):</label>
-<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.1" style="width:8em" />
+<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.1" style="width:8em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.1">JXUwMDMxJXUwMDA0JXUwMDFkJXUwMDFmJXUwMDFkJXUwMDA2JXUwMDU0JXUwMDBh
 </span>
 </span></p>
 <p><span style="font-family: 'courier new', courier, monospace;">
 <label for="clozeBlank8_105.2" class="sr-av">Lückentest (3):</label>
-<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.2" style="width:7em" />
+<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.2" style="width:7em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.2">JXUwMDNjJXUwMDBkJXUwMDFhJXUwMDAzJXUwMDFjJXUwMDBkJXUwMDE4
 </span>
-.show
+.show(
 <label for="clozeBlank8_105.3" class="sr-av">Lückentest (4):</label>
-<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.3" style="width:15em" />
-<span style="display:none" id="clozeAnswer8_105.3">JXUwMDcwJXUwMDBhJXUwMDZhJXUwMDI5JXUwMDBkJXUwMDAwJXUwMDAzJXUwMDRmJXUwMDc3JXUw
-MDMyJXUwMDA5JXUwMDE4JXUwMDU1JXUwMDAzJXUwMDBi
+<input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.3" style="width:13em" onkeyup="$exe.cloze.change(this)" />
+<span style="display:none" id="clozeAnswer8_105.3">JXUwMDdhJXUwMDZhJXUwMDI5JXUwMDBkJXUwMDAwJXUwMDAzJXUwMDRmJXUwMDc3JXUwMDMyJXUw
+MDA5JXUwMDE4JXUwMDU1JXUwMDAz
 </span>
-</span></p>
+)</span></p>
 <div class="block iDevice_buttons">
 <p>
-<input class="button" type="submit" name="submit8_105" value="Antwort abgeben "  id="submit8_105" />
-
-<input type="button" name="restart8_105" value="Neustart" style="display:none" id="restart8_105" onclick="$exe.cloze.restart('8_105')" />
-
+<input type="button" value="Erreichte Punkte" id="getScore8_105" onclick="$exe.cloze.showScore('8_105')" />
  
-<input type="button" name="8_105showAnswersButton" value="Antworten zeigen" style="display:none" id="showAnswersButton8_105" onclick="$exe.cloze.fillInputs('8_105')" />
+<input type="button" name="8_105showAnswersButton" value="Antworten zeigen/löschen" style="" id="showAnswersButton8_105" onclick="$exe.cloze.toggleAnswers('8_105')" />
 
 <span class="js-hidden js-warning">Enable JavaScript</span>
 </p>
