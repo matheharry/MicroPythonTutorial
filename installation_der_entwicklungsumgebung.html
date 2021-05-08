@@ -26,7 +26,12 @@
    <li id="active"><a href="installation_der_entwicklungsumgebung.html" class="active no-ch">Installation der Entwicklungsumgebung</a></li>
    <li><a href="arbeitsweise.html" class="no-ch">Arbeitsweise</a></li>
    <li><a href="tutorial.html" class="no-ch">Tutorial</a></li>
-   <li><a href="wissensberprfung.html" class="no-ch">Wissensüberprüfung</a></li>
+   <li><a href="wissensberprfung.html" class="daddy">Wissensüberprüfung</a>
+   <ul class="other-section">
+      <li><a href="datentypen.html" class="no-ch">Datentypen</a></li>
+      <li><a href="variablen.html" class="no-ch">Variablen</a></li>
+   </ul>
+   </li>
 </ul>
 </nav>
 <div id='topPagination'>
@@ -39,7 +44,7 @@
 <header id="nodeDecoration"><h1 id="nodeTitle">Installation der Entwicklungsumgebung</h1></header>
 <article class="iDevice_wrapper textIdevice em_iDevice" id="id9">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header iDevice_header_noIcon"><h1 class="iDeviceTitle">Mu - Meine erste Python-Entwicklungsumgebung</h1></header>
+<header class="iDevice_header" style="background-image:url(icon_description.png)"><h1 class="iDeviceTitle">Mu - Meine erste Python-Entwicklungsumgebung</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <div id="ta9_108_2" class="block iDevice_content">
@@ -64,46 +69,48 @@
 <h1><br /><br /></h1>
 <p><span style="font-weight: 400;">Danach solltest du Mu im Start-Menu finden.</span></p>
 <h1><b>Erste Schritte</b></h1>
-<p><span style="font-weight: 400;">Ganz oben in Mu ist eine Titelleiste. </span></p>
+<p><span style="font-weight: 400;">Ganz oben in Mu ist eine <span style="color: #ff0000;"><strong>Titelleiste</strong></span>. </span></p>
 <p><span style="font-weight: 400;"><img src="image6.png" alt="" width="297" height="52" /></span></p>
 <p><span style="font-weight: 400;">Diese sieht auf deinem Computer vielleicht anders aus, aber ihre Funktion ist immer dieselbe: sie zeigt die Version von Mu an, die du benutzt, zusammen mit dem Namen der aktuellen Python-Datei, die du gerade bearbeitest.</span></p>
-<p><span style="font-weight: 400;">Darunter ist die Symbolleiste:</span></p>
-<p><span style="font-weight: 400;"><img src="image10.png" alt="" width="1088" height="92" /></span></p>
+<p><span style="font-weight: 400;">Darunter ist die <span style="color: #ff0000;"><strong>Symbolleiste</strong></span>:</span></p>
+<p><span style="font-weight: 400;"><img src="symbolleiste.png" width="800" height="70" /></span></p>
 <p><span style="font-weight: 400;">Wie du sehen kannst, enthält sie runde Buttons. Wenn du mit der Maus über einen Button fährst (ohne ihn tatsächlich anzuklicken), erscheint ein kleiner Tooltip über dem Button, der mehr Informationen darüber enthält, was der Button macht. Probier es aus!</span></p>
 <p><span style="font-weight: 400;">Die meisten Buttons bleiben gleich, aber einige ändern sich, je nachdem, was du gerade machst.</span></p>
 <p><span style="font-weight: 400;">Die Buttons sind gruppiert:</span></p>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><b>Betriebsmodus</b><span style="font-weight: 400;">: Dieser Button ist so wichtig, dass er in eine eigene Gruppe kommt. Klicke darauf, um den aktuellen Modus von Mu zu ändern. Jeder Modus hat unterschiedliche Fähigkeiten, je nachdem, was ihr erreichen wollt. (Wenn du mehr über die Modi wissen möchtest, gibt es ein Tutorial über die Modi.) Wir benötigen jetzt zuerst einmal den Modus Python 3.</span></li>
-<li style="font-weight: 400;" aria-level="1"><b>Dateisystem</b><span style="font-weight: 400;">: Die Buttons "Neu", "Laden" und "Speichern" in dieser Gruppe ermöglichen es dir, mit Dateien auf der Festplatte deines Computers zu arbeiten.</span>
+<li style="font-weight: 400;" aria-level="1"><span style="color: #008000;"><b>Mode (Betriebsmodus)</b></span><span style="font-weight: 400;"><span style="color: #008000;">:</span> <br />Dieser Button ist so wichtig, dass er in eine eigene Gruppe kommt. Klicke darauf, um den aktuellen Modus von Mu zu ändern. Jeder Modus hat unterschiedliche Fähigkeiten, je nachdem, was ihr erreichen wollt. (Wenn du mehr über die Modi wissen möchtest, gibt es ein Tutorial über die Modi.) Wir benötigen vor allem den Modus <em><strong>BBC micro:bit</strong>,</em> einige Screenshots zeigen aber auch den <strong><em>Python 3</em> </strong>Modus, mit dem Programme für den Computer erstellt werden können.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="color: #008000;"><b>Dateisystem des Computers</b></span><span style="font-weight: 400;"><span style="color: #008000;">:</span> <br />Die Buttons "New", "Load" und "Save" in dieser Gruppe ermöglichen es dir, mit Dateien auf der Festplatte deines Computers zu arbeiten.</span>
 <ul>
-<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Neu: Erstelle eine neue leere Datei.</span></li>
-<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Laden: Öffne einen Dateiselektor, um eine Datei zum Laden in Mu auszuwählen.</span></li>
-<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Speichern: Speichere die Datei auf der Festplatte deines Computers. Wenn die Datei keinen Namen hat, wirst du nach einem Namen gefragt.</span></li>
-<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Wenn Dateien einen Namen haben, werden sie normalerweise alle 5 Sekunden automatisch gespeichert. Deshalb immer einer neuen Datei sofort einen Namen geben!</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;"><strong><em>New</em></strong>: Erstelle eine neue leere Datei.</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;"><strong><em>Load</em></strong>: Wählt die zu bearbeitende Datei aus und öffnet sie in Mu.</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;"><strong><em>Save</em></strong>: Speichere die Datei auf der Festplatte deines Computers. Wenn die Datei keinen Namen hat, wirst du nach einem Namen gefragt. Pythondateien haben die Endung .py!</span></li>
+<li style="font-weight: 400;" aria-level="2"><span style="font-weight: 400;">Wenn Dateien einen Namen haben, werden sie normalerweise alle 5 Sekunden automatisch gespeichert. Deshalb <span style="color: #ff0000;">immer einer neuen Datei sofort einen Namen geben</span>!</span></li>
 </ul>
 </li>
-<li style="font-weight: 400;" aria-level="1"><b>Code-Aktionen</b><span style="font-weight: 400;">: Die nächste Gruppe von Buttons kann sich ändern, je nachdem, welchen Modus du gerade verwendest. Sie geben dir interessante Möglichkeiten, mit dem Code, den du geschrieben hast, zu arbeiten und zu experimentieren. Im obigen Beispiel gehören die Buttons "Ausführen", "Debuggen", "REPL" und "Plotter" zu dieser Gruppe. </span></li>
-<li style="font-weight: 400;" aria-level="1"><b>Anzeigeeinstellungen</b><span style="font-weight: 400;">: Manchmal ist es wichtig, das Aussehen von Mu zu verändern. Die nächsten drei Buttons ("Hineinzoomen", "Rauszoomen" und "Thema") ändern, wie sich Mu präsentiert. Die Buttons "Hinauszoomen" und "Rauszoomen" machen den Text größer oder kleiner. Der "Thema"-Button schaltet zwischen drei verschiedenen "Themes" hin und her:</span>
+<li style="font-weight: 400;" aria-level="1"><span style="color: #008000;"><b>Arbeiten auf dem micro:bit</b></span><span style="font-weight: 400;"><span style="color: #008000;">:</span> <br />Die nächste Gruppe von Buttons kann sich ändern, je nachdem, welchen Modus du gerade verwendest. Sie geben dir interessante Möglichkeiten, mit dem Code, den du geschrieben hast, zu arbeiten und zu experimentieren. Im obigen Beispiel gehören die Buttons "<strong><em>Flash</em></strong>", "<em><strong>Files</strong></em>", "<em><strong>REPL</strong></em>" und "<em><strong>Plotter</strong></em>" zu dieser Gruppe. </span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="color: #008000;"><b>Anzeigeeinstellungen</b></span><span style="font-weight: 400;"><span style="color: #008000;">:</span> <br />Manchmal ist es wichtig, das Aussehen von Mu zu verändern. Die nächsten drei Buttons ("<em><strong>Zoom-in</strong></em>", "<em><strong>Zoom-out</strong></em>" und "<em><strong>Theme</strong></em>") ändern das Aussehen von Mu. Die Buttons zum Hinein- und Herauszoomen machen den Text größer oder kleiner. Der "Theme"-Button schaltet zwischen drei verschiedenen Bildschirmdarstellungen hin und her:</span>
 <ul>
-<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Tag</span></i><span style="font-weight: 400;">: ein helles, augenfreundliches Thema.</span></li>
+<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Tag</span></i><span style="font-weight: 400;">: eine helle, augenfreundliche Bildschirmdarstellung.</span></li>
 <li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Nacht</span></i><span style="font-weight: 400;">: ein dunkles Thema, das dich wie ein Coder in einem Hollywood-Film aussehen lässt.</span></li>
-<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Hoher Kontrast</span></i><span style="font-weight: 400;">: ein Schwarz-Weiß-Thema für diejenigen, die Hilfe brauchen, um Mu's Benutzeroberfläche zu sehen.</span></li>
-</ul>
-</li>
+<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Hoher Kontrast</span></i><span style="font-weight: 400;">: ein Schwarz-Weiß-Thema für Menschen die schlecht sehen.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Mu merkt sich, welches Thema du zuletzt benutzt hast, wenn du den Editor neu startest.</span></li>
-<li style="font-weight: 400;" aria-level="1"><b>Hilfsprogramme</b><span style="font-weight: 400;">: Die Buttons "Prüfen", "Hilfe" und "Beenden" bieten Möglichkeiten, wie Mu dir bei der Programmierung mit Mu helfen kann.</span>
-<ul>
-<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Prüfen</span></i><span style="font-weight: 400;">: Analysiert deinen Code und macht Vorschläge, wie du ihn verbessern kannst.</span></li>
-<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Hilfe</span></i><span style="font-weight: 400;">: Öffnet deinen Standardbrowser auf Mu's Hilfeseite.</span></li>
-<li style="font-weight: 400;" aria-level="2"><i><span style="font-weight: 400;">Beenden</span></i><span style="font-weight: 400;">: stoppt den Editor. Möglicherweise wirst du aufgefordert, deine Arbeit zu speichern, falls du das noch nicht getan hast.</span></li>
 </ul>
 </li>
+<li style="font-weight: 400;" aria-level="1"><span style="color: #008000;"><b>Hilfsprogramme</b></span><span style="font-weight: 400;"><span style="color: #008000;">:</span> <br />Die Buttons "<em><strong>Check</strong></em>", "<em><strong>Tidy</strong></em>" und "<em><strong>Help</strong></em>" bieten Möglichkeiten, wie Mu dir bei der Programmierung mit Mu helfen kann.</span>
+<ul>
+<li style="font-weight: 400;" aria-level="2"><strong><i>Check:</i></strong><span style="font-weight: 400;"> Analysiert deinen Code und macht Vorschläge, wie du ihn verbessern kannst.</span></li>
+<li style="font-weight: 400;" aria-level="2"><em><strong>Tidy: </strong></em>Formatiert deinen Code so, dass er besser lesbar ist (zB. Einrückungen und Leerzeichen). Wenn Tidy nicht funktioniert sind oft fehlerhafte Einrückungen oder fehlende Doppelpunkte daran Schuld.</li>
+<li style="font-weight: 400;" aria-level="2"><strong><i>Help</i></strong><span style="font-weight: 400;">: Öffnet deinen Standardbrowser auf Mu's Hilfeseite.</span></li>
 </ul>
-<p><span style="font-weight: 400;">Unter den Buttons befinden sich "Tabs", die dir die geöffneten Dateien anzeigen. Unter den Tabs befindet sich der größte und wichtigste Teil von Mu →  der Texteditor.</span></p>
+</li>
+<li style="font-weight: 400;" aria-level="1"><span style="color: #008000;"><strong><i>Quit</i></strong></span><span style="font-weight: 400;">: <br />schließt den Editor. Möglicherweise wirst du aufgefordert, deine Arbeit zu speichern, falls du das noch nicht getan hast.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Unter den Buttons befinden sich "<span style="color: #ff0000;"><strong>Tabs</strong></span>", die dir die geöffneten Dateien anzeigen. Unter den Tabs befindet sich der größte und wichtigste Teil von Mu:</span></p>
+<p><span style="font-weight: 400;">Der <span style="color: #ff0000;"><strong>Texteditor</strong></span>.</span></p>
 <p><span style="font-weight: 400;"><img src="image5.png" alt="" width="826" height="736" /></span></p>
 <p><span style="font-weight: 400;">Hier wird der Code für den aktuell ausgewählten Tab angezeigt. Wenn du die Tabs wechselst, wirst du sehen, dass sich der Code in diesem Bereich ändert. Wenn du auf diesen Bereich klickst und anfängst zu tippen, wird dein Code hier angezeigt. </span></p>
 <p><span style="font-weight: 400;">Während du den Code eingibst, wird Mu die Farbe des Textes ändern, um dir das Lesen des Codes zu erleichtern. Auf der linken Seite befindet sich eine Spalte mit den Zeilennummern für deine Datei. Diese sind nützlich, wenn Python Fehler meldet.</span></p>
-<p><span style="font-weight: 400;">Schließlich ist unten die Fußzeile, in der Mu Meldungen anzeigt.</span></p>
+<p><span style="font-weight: 400;">Schließlich ist unten die <span style="color: #ff0000;"><strong>Fußzeile</strong></span>, in der Mu Meldungen anzeigt.</span></p>
 <h1><b>Hallo von Mu!</b></h1>
 <p><span style="font-weight: 400;">Lass uns dein erstes Python-Programm mit Mu erstellen.</span></p>
 <ol>
@@ -117,7 +124,6 @@
 <figure class="exe-figure exe-image position-center" style="width: 800px;"><img src="mu_hallo.gif" alt="" width="800" height="456" />
 <figcaption class="figcaption"><a href="https://codewith.mu/" target="_blank" class="author" rel="noopener">Quelle: https://codewith.mu/</a></figcaption>
 </figure>
-<p><br /><br /></p>
 <p><span style="font-weight: 400;">Herzlichen Glückwunsch! Du hast gerade dein erstes Python-Programm mit Mu geschrieben und ausgeführt.</span></p></div>
 </div>
 </div>
