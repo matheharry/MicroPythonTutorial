@@ -28,7 +28,7 @@
    <li><a href="tutorial.html" class="no-ch">Tutorial</a></li>
    <li id="active"><a href="wissensberprfung.html" class="active daddy">Wissensüberprüfung</a>
    <ul>
-      <li><a href="datentypen.html" class="no-ch">Datentypen</a></li>
+      <li><a href="datentypen_und_variablen.html" class="no-ch">Datentypen und Variablen</a></li>
       <li><a href="variablen.html" class="no-ch">Variablen</a></li>
    </ul>
    </li>
@@ -36,7 +36,7 @@
 </nav>
 <div id='topPagination'>
 <nav class="pagination noprt">
-<a href="tutorial.html" class="prev"><span><span>&laquo; </span>Vorheriges</span></a> <span class="sep">| </span><a href="datentypen.html" class="next"><span>Nächste<span> &raquo;</span></span></a>
+<a href="tutorial.html" class="prev"><span><span>&laquo; </span>Vorheriges</span></a> <span class="sep">| </span><a href="datentypen_und_variablen.html" class="next"><span>Nächste<span> &raquo;</span></span></a>
 </nav>
 </div>
 <div id="main-wrapper">
@@ -57,7 +57,7 @@
 </article>
 <article class="iDevice_wrapper ClozeIdevice em_iDevice" id="id8">
 <div class="iDevice emphasis1" >
-<header class="iDevice_header"><span class="iDeviceTitle">&nbsp;</span></header>
+<header class="iDevice_header"><h1 class="iDeviceTitle">Lücken-Code</h1></header>
 <div class="iDevice_inner">
 <div class="iDevice_content_wrapper">
 <section id="ta8_104" class="block instructions iDevice_content">
@@ -73,23 +73,25 @@
 
 <input type="hidden" name="clozeFlag8_105.instantMarking" id="clozeFlag8_105.instantMarking" value="true"/>
 
-<p><span style="font-family: 'courier new', courier, monospace;"> 
+<input type="hidden" name="clozeVar8_105.feedbackId" id="clozeVar8_105.feedbackId" value="ta8_106"/>
+
+<p><span style="font-family: 'courier new', courier, monospace;">   
 <label for="clozeBlank8_105.0" class="sr-av">Lückentest (1):</label>
 <input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.0" style="width:4em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.0">JXUwMDNlJXUwMDE0JXUwMDFkJXUwMDAy
 </span>
- microbit 
+   microbit   
 <label for="clozeBlank8_105.1" class="sr-av">Lückentest (2):</label>
 <input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.1" style="width:8em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.1">JXUwMDMxJXUwMDA0JXUwMDFkJXUwMDFmJXUwMDFkJXUwMDA2JXUwMDU0JXUwMDBh
 </span>
- </span></p>
-<p><span style="font-family: 'courier new', courier, monospace;"> 
+   </span></p>
+<p><span style="font-family: 'courier new', courier, monospace;">   
 <label for="clozeBlank8_105.2" class="sr-av">Lückentest (3):</label>
 <input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.2" style="width:7em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.2">JXUwMDNjJXUwMDBkJXUwMDFhJXUwMDAzJXUwMDFjJXUwMDBkJXUwMDE4
 </span>
-.show(
+  .show(  
 <label for="clozeBlank8_105.3" class="sr-av">Lückentest (4):</label>
 <input class="autocomplete-off" type="text" value="" id="clozeBlank8_105.3" style="width:13em" onkeyup="$exe.cloze.change(this)" />
 <span style="display:none" id="clozeAnswer8_105.3">JXUwMDI0JXUwMDVlJXUwMDZhJXUwMDI5JXUwMDBkJXUwMDAwJXUwMDAzJXUwMDRmJXUwMDc3JXUw
@@ -97,10 +99,12 @@ MDMyJXUwMDA5JXUwMDE4JXUwMDU1JXUwMDAzJXUwMDVlJXUwMDViJXUwMDZmJXUwMDI5JXUwMDBk
 JXUwMDAwJXUwMDAzJXUwMDRmJXUwMDc3JXUwMDMyJXUwMDA5JXUwMDE4JXUwMDU1JXUwMDA2JXUw
 MDVi
 </span>
-)</span></p>
+  )</span></p>
 <div class="block iDevice_buttons">
 <p>
 <input type="button" value="Erreichte Punkte" id="getScore8_105" onclick="$exe.cloze.showScore('8_105')" />
+<input type="button" name="feedback8_105" value="Feedback zeigen" class="feedbackbutton" onclick="$exe.cloze.toggleFeedback('8_105',this)" />
+
  
 <input type="button" name="8_105showAnswersButton" value="Antworten zeigen/löschen" style="" id="showAnswersButton8_105" onclick="$exe.cloze.toggleAnswers('8_105')" />
 
@@ -108,6 +112,141 @@ MDVi
 </p>
 </div>
 <div id="clozeScore8_105"></div>
+</div>
+</form>
+</section>
+    <section id="ta8_106" class="feedback js-feedback iDevice_content" style="display:none">
+<p><span style="font-family: arial, helvetica, sans-serif;">Jedes Programm das mit dem micro:bit arbeitet benötigt das Modul</span> <strong><span style="font-family: 'andale mono', monospace;">microbit</span><span style="font-family: arial, helvetica, sans-serif;">, </span></strong><span style="font-family: arial, helvetica, sans-serif;">das importiert werden muss:</span></p>
+<p><span style="font-family: 'andale mono', monospace;">from microbit import *</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">Um etwas mit den LEDs anzeigen zu können werden die Methoden des Objekts <span style="font-family: 'andale mono', monospace;">display<span style="font-family: arial, helvetica, sans-serif;"> eingesetzt.</span></span></span></p>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper MultiSelectIdevice em_iDevice" id="id13">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Mehrfachauswahl</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section class="question">
+<div id="actitity-13_108">
+<form name="multi-select-form-13_108" action="#" class="activity-form multi-select-form">
+<h1 class="js-sr-av">Frage</h1>
+<div id="taquestion13_108" class="block question iDevice_content">
+<p>Welche Befehle geben <strong>Hallo Welt!</strong> auf der REPL-Konsole aus?</p>
+</div>
+<section class="iDevice_answers">
+<h1 class="js-sr-av">Antworten</h1>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op13_1080" class="sr-av"><a href="#answer-13_111">Antwort 1</a></label><input type="checkbox" id="op13_1080" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-13_111"><div id="taans13_111" class="block iDevice_content">
+<p><span style="font-family: 'courier new', courier, monospace;">print(Hallo Welt!)</span></p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-13_1080" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op13_1081" class="sr-av"><a href="#answer-13_239">Antwort 2</a></label><input type="checkbox" id="op13_1081" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-13_239"><div id="taans13_239" class="block iDevice_content">
+<p><span style="font-family: 'courier new', courier, monospace;">print("Hallo Welt!")</span></p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-13_1081" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op13_1082" class="sr-av"><a href="#answer-13_241">Antwort 3</a></label><input type="checkbox" id="op13_1082" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-13_241"><div id="taans13_241" class="block iDevice_content">
+<p><span style="font-family: 'courier new', courier, monospace;">print "Hallo Welt!"</span></p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-13_1082" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op13_1083" class="sr-av"><a href="#answer-13_243">Antwort 4</a></label><input type="checkbox" id="op13_1083" value="True" />
+</p>
+<div class="iDevice_answer-content" id="answer-13_243"><div id="taans13_243" class="block iDevice_content">
+<p><span style="font-family: 'courier new', courier, monospace;">print('Hallo Welt!')</span></p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-13_1083" style="display:none"></section>
+</section>
+<section class="iDevice_answer">
+<p class="iDevice_answer-field js-required">
+<label for="op13_1084" class="sr-av"><a href="#answer-13_245">Antwort 5</a></label><input type="checkbox" id="op13_1084" value="False" />
+</p>
+<div class="iDevice_answer-content" id="answer-13_245"><div id="taans13_245" class="block iDevice_content">
+<p><span style="font-family: 'courier new', courier, monospace;">display(Hallo Welt!)</span></p>
+</div>
+</div>
+<section class="iDevice_answer-feedback feedback" id="feedback-13_1084" style="display:none"></section>
+</section>
+</section>
+<div class="block iDevice_buttons feedback-button js-required">
+<p>
+<input type="button" name="submitSelect" class="feedbackbutton multi-select-feedback-toggler" value="Feedback zeigen" id="multi-select-feedback-toggler-5-13_108" /> 
+</p>
+</div>
+<section id="f13_108" class="js-hidden js-feedback">
+<h1 class="js-sr-av">Feedback</h1>
+
+</section>
+</form>
+<section class="iDevice_solution feedback js-hidden">
+<h1>Lösung</h1>
+<ol>
+<li><a href="#answer-13_111" class="wrong">Falsch</a></li>
+<li><a href="#answer-13_239" class="right">Richtig</a></li>
+<li><a href="#answer-13_241" class="wrong">Falsch</a></li>
+<li><a href="#answer-13_243" class="right">Richtig</a></li>
+<li><a href="#answer-13_245" class="wrong">Falsch</a></li>
+</ol>
+</section>
+</div>
+</section>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper ListaIdevice em_iDevice" id="id17">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Kommentare</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<section id="ta17_115" class="block instructions iDevice_content">
+<p>Welches Zeichen muss einem Kommentar im Code vorangestellt werden?</p>
+</section>
+
+<section class="activity" id="activity-17_116">
+<form name="cloze-form-17_116" action="#" class="activity-form cloze-form">
+<div id="cloze17_116">
+<p><span style="background-color: #d6d6d6;"><strong><span style="font-size: 12pt; font-family: 'courier new', courier, monospace; background-color: #d6d6d6;">x = <span style="color: #ff6600;">"Hallo meine Lieben!"</span> 
+<label for="clozeBlank17_116.0" class="sr-av">Lückentest (1):</label>
+<select id="clozeBlank17_116.0">
+<option selected="selected"> </option><option value="#">#</option><option value="*">*</option><option value="::">::</option><option value="$">$</option><option value="//">//</option><option value="%">%</option><option value="rem">rem</option>
+</select>
+<span style="display:none" id="clozeAnswer17_116.0">JXUwMDdi</span>
+ <span style="color: #008000;">Begrüßungstext</span></span></strong></span></p>
+<div class="block iDevice_buttons">
+<p>
+<input class="button" type="submit" name="getScore17_116" value="Prüfen"  id="getScore17_116" />
+
+<input type="hidden" name="clozeOtras17_116" id="clozeOtras17_116" value="JXUwMDdkJXUwMDU5JXUwMDVmJXUwMDVmJXUwMDU2JXUwMDU2JXUwMDQ2JXUwMDAwJXUwMDQ2JXUwMDBlJXUwMDE3JXUwMDA4JXUwMDExJXUwMDU4JXUwMDU4JXUwMDUzJXUwMDAwJXUwMDUz"/>
+
+<input type="hidden" name="clozeFlag17_116.strictMarking" id="clozeFlag17_116.strictMarking" value="false" />
+<input type="hidden" name="clozeFlag17_116.checkCaps" id="clozeFlag17_116.checkCaps" value="false" />
+<input type="hidden" name="clozeFlag17_116.instantMarking" id="clozeFlag17_116.instantMarking" value="false" />
+<span class="js-hidden js-warning">Enable JavaScript</span>
+</p>
+</div>
+<div class="score js-feedback" id="clozeScore17_116"></div>
 </div>
 </form>
 </section></div>
@@ -121,7 +260,7 @@ MDVi
 </div>
 <div id='bottomPagination'>
 <nav class="pagination noprt">
-<a href="tutorial.html" class="prev"><span><span>&laquo; </span>Vorheriges</span></a> <span class="sep">| </span><a href="datentypen.html" class="next"><span>Nächste<span> &raquo;</span></span></a>
+<a href="tutorial.html" class="prev"><span><span>&laquo; </span>Vorheriges</span></a> <span class="sep">| </span><a href="datentypen_und_variablen.html" class="next"><span>Nächste<span> &raquo;</span></span></a>
 </nav>
 </div>
 </div>
