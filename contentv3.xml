@@ -1468,7 +1468,7 @@ and select the size of the area to display it in."></unicode>
       <instance class="exe.engine.node.Node" reference="27">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Wissensüberprüfung"></unicode>
+        <unicode value="Check dein Wissen"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="25">
@@ -2511,7 +2511,7 @@ click on the 'Hide/Show' button below.&lt;/p&gt;"></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Wissens%C3%BCberpr%C3%BCfung"></string>
+        <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Check%20dein%20Wissen"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3595,7 +3595,7 @@ clicking the red X next to the option."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Wissens%C3%BCberpr%C3%BCfung:Datentypen%20und%20Variablen"></string>
+           <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Check%20dein%20Wissen:Datentypen%20und%20Variablen"></string>
            <string role="key" value="parent"></string>
            <reference key="27"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3621,7 +3621,7 @@ clicking the red X next to the option."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Wissens%C3%BCberpr%C3%BCfung:Variablen"></string>
+           <string value="exe-node:micro%3Abit%20MicroPython%20Tutorial:Check%20dein%20Wissen:Variablen"></string>
            <string role="key" value="parent"></string>
            <reference key="27"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
