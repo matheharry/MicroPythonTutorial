@@ -616,7 +616,7 @@
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Während du den Code eingibst, wird Mu die Farbe des Textes ändern, um dir das Lesen des Codes zu erleichtern. Auf der linken Seite befindet sich eine Spalte mit den Zeilennummern für deine Datei. Diese sind nützlich, wenn Python Fehler meldet.&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Schließlich ist unten die &lt;span style=&quot;color: #ff0000;&quot;&gt;&lt;strong&gt;Fußzeile&lt;/strong&gt;&lt;/span&gt;, in der Mu Meldungen anzeigt.&lt;/span&gt;&lt;/p&gt;
 &lt;h1&gt;&lt;b&gt;Los geht's mit Mu!&lt;/b&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Lass uns dein erstes Python-Programm mit Mu erstellen.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Wir wollen jetzt gleich mit Mu loslegen und unser erstes Programm erstellen.&lt;/span&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stelle sicher, dass Mu im Python 3 Modus ist (überprüfe die Fußzeile!). Wenn das nicht der Fall ist, klicke auf den &quot;Modus&quot;-Button und doppelklicke auf den &quot;Python 3&quot;-Modus.&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Klicke auf den &quot;Neu&quot;-Button, dann, bevor du etwas eintippst, klicke auf den &quot;Speichern&quot;-Button und gib deiner Datei einen Namen (zum Beispiel &quot;losgehts.py&quot;). Das sofortige Speichern solltest du dir unbedingt angewöhnen!&lt;/span&gt;&lt;/li&gt;
@@ -624,7 +624,7 @@
 &lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Klicke auf den &quot;Ausführen&quot;-Button und die Ausgabe deines Programms wird in einem neuen &quot;Ausgabe&quot;-Bereich zwischen dem Texteditor und der Fußzeile angezeigt.&lt;/span&gt;&lt;/li&gt;
 &lt;li style=&quot;font-weight: 400;&quot; aria-level=&quot;1&quot;&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Klicke auf den &quot;Stop&quot;-Button, um zum Editieren deines Codes zurückzukehren.&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;&lt;/span&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 799px;&quot;&gt;&lt;img src=&quot;resources/mu-losgehts.gif&quot; alt=&quot;erstes Programm, das &amp;quot;Los geht's!&amp;quot; ausgibt&quot; title=&quot;Los geht's&quot; width=&quot;799&quot; height=&quot;493&quot; /&gt;&lt;/figure&gt;
+&lt;figure class=&quot;exe-figure exe-image position-center&quot; style=&quot;width: 799px;&quot;&gt;&lt;img src=&quot;resources/mu-losgehts.gif&quot; alt=&quot;erstes Programm, das &amp;quot;Los geht's!&amp;quot; ausgibt&quot; title=&quot;Los geht's&quot; width=&quot;1907&quot; height=&quot;1176&quot; /&gt;&lt;/figure&gt;
 &lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Herzlichen Glückwunsch! Du hast gerade dein erstes Python-Programm mit Mu geschrieben und ausgeführt.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
@@ -1061,7 +1061,7 @@
                    <instance class="exe.engine.field.TextField">
                     <dictionary>
                      <string role="key" value="_id"></string>
-                     <int value="290"></int>
+                     <int value="291"></int>
                      <string role="key" value="_idevice"></string>
                      <none></none>
                      <string role="key" value="_instruc"></string>
@@ -1075,7 +1075,7 @@
                     </dictionary>
                    </instance>
                    <string role="key" value="_id"></string>
-                   <unicode value="9_108_2.46"></unicode>
+                   <unicode value="9_108_2.47"></unicode>
                    <string role="key" value="_imageResource"></string>
                    <instance class="exe.engine.resource.Resource" reference="19">
                     <dictionary>
@@ -1088,7 +1088,7 @@
                      <string role="key" value="_userName"></string>
                      <string value="c:\\users\\mathe\\appdata\\local\\temp\\tmp08wgzi.eXe\\previews\\allyourbase\\mu-losgehts.gif"></string>
                      <string role="key" value="checksum"></string>
-                     <string value="c2a89cc38bb136bf50800e7437789943"></string>
+                     <string value="0e8618fcb0b537cc899e0cd68a4ede65"></string>
                      <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
                      <int value="2"></int>
                      <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
@@ -1115,7 +1115,7 @@
               <string role="key" value="intlinks_to_anchors"></string>
               <dictionary></dictionary>
               <string role="key" value="nextImageId"></string>
-              <int value="47"></int>
+              <int value="48"></int>
               <string role="key" value="parentNode"></string>
               <reference key="10"></reference>
              </dictionary>
@@ -4927,6 +4927,10 @@ clicking the red X next to the option."></unicode>
    <list>
     <reference key="15"></reference>
    </list>
+   <string role="key" value="0e8618fcb0b537cc899e0cd68a4ede65"></string>
+   <list>
+    <reference key="19"></reference>
+   </list>
    <string role="key" value="124d09d6ab34849bec73d7368c719d5f"></string>
    <list>
     <reference key="12"></reference>
@@ -4954,10 +4958,6 @@ clicking the red X next to the option."></unicode>
    <string role="key" value="a7b7b28316b6bb65452f3de5b3550b88"></string>
    <list>
     <reference key="11"></reference>
-   </list>
-   <string role="key" value="c2a89cc38bb136bf50800e7437789943"></string>
-   <list>
-    <reference key="19"></reference>
    </list>
    <string role="key" value="caa4f6bc378e9b92191d57492ea8feff"></string>
    <list>
