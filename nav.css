@@ -80,15 +80,17 @@ body .pagination a,body #nav-toggler a{filter:alpha(opacity=100);opacity:1;outli
 
 /* eXeLearning Style Designer */
 #content{
-/*pageWidth*/
-width:1100px;
-/*wrapperShadowColor*/
-box-shadow:0 0 15px 0 #999999;
-/*pageAlign*/
-margin:0;
-/*contentBGColor*/
-background-color:#ffffff;
-}
+	/*pageWidth*/
+	/* width:1100px; */ /* Alte feste Breite auskommentiert oder entfernt */
+	width: 90%; /* Setzt die Breite auf 90% des Elternelements (normalerweise das Browserfenster) */
+	max-width: 1200px; /* Optionale maximale Breite, um Lesbarkeit auf sehr großen Bildschirmen zu gewährleisten */
+	/*wrapperShadowColor*/
+	box-shadow:0 0 15px 0 #999999;
+	/*pageAlign*/
+	margin: 0 auto; /* Zentriert den Container horizontal im Browserfenster */
+	/*contentBGColor*/
+	background-color:#ffffff;
+	}
 /*useNavigationIcons*/
 /*whiteNavigationIcons*/
 .pagination a span{
