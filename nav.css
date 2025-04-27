@@ -82,7 +82,7 @@ body .pagination a,body #nav-toggler a{filter:alpha(opacity=100);opacity:1;outli
 #content{
 	/*pageWidth*/
 	/* width:1100px; */ /* Alte feste Breite auskommentiert oder entfernt */
-	width: 90%; /* Setzt die Breite auf 90% des Elternelements (normalerweise das Browserfenster) */
+	width: 100%; /* Setzt die Breite auf 100% des Elternelements (normalerweise das Browserfenster) */
 	max-width: 1200px; /* Optionale maximale Breite, um Lesbarkeit auf sehr großen Bildschirmen zu gewährleisten */
 	/*wrapperShadowColor*/
 	box-shadow:0 0 15px 0 #999999;
