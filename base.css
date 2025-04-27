@@ -379,7 +379,7 @@ p.exe-block-success {
 a.exe-enlarge:hover .exe-enlarge-icon,
 a.exe-enlarge:focus .exe-enlarge-icon {
   display: block;
-  *display: none;
+  display: none;
 }
 .exe-clear {
   overflow: auto;
@@ -401,7 +401,7 @@ a.exe-enlarge:focus .exe-enlarge-icon {
   font-size: 1em;
   margin-top: 0;
   font-weight: normal;
-  *margin-top: 1em;
+  margin-top: 1em;
 }
 .iDevice_hint {
   margin-bottom: 1.5em;
@@ -417,7 +417,7 @@ a.exe-enlarge:focus .exe-enlarge-icon {
 }
 .iDevice_answer {
   overflow: hidden;
-  *margin: 1.5em 0;
+  margin: 1.5em 0;
 }
 .iDevice_answer {
   overflow: hidden;

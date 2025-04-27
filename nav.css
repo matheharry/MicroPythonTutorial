@@ -1,10 +1,17 @@
 /* eXeLearning Style Designer Compatible Style */
 body{padding:0;text-align:center}
 #content{width:100%;max-width:100%;margin:0 auto;text-align:left;position:relative;border-style:solid;border-width:0}
-#main-wrapper{padding-bottom:1.5em;width:100%;*width:auto}/* * is for IE6 and IE7 */
-#main{padding:20px 40px 30px 320px;height:auto!important;height:200px;min-height:200px;*padding-left:0}
+#main-wrapper{padding-bottom:1.5em;width:100%;} /* Removed outdated IE6/IE7 hack */
+#main{padding:20px 40px 30px 320px;height:auto!important;height:200px;min-height:200px;}
 
 .no-nav #main-wrapper{width:100%}
+
+#header {
+	background: url('header.png') no-repeat center top;
+	background-color: #2980b9;
+	background-size: 20%;
+	height: 30px; /* Adjust height as needed */
+}
 .no-nav #main{padding:20px 20px 0 20px}
 
 #header,#emptyHeader{border-top-width:0;border-right-width:0;border-left-width:0}
